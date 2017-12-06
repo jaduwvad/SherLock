@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\Main.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Main.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="res\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\mainBG.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\SearchBtnC.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\SearchBtnF.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\SearchBtnN.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\SearchBtnU.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\AutoLockC.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\AutoLockF.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\AutoLockN.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\AutoLockU.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\EncryptC.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\EncryptF.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\EncryptN.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\EncryptU.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\EncryptNNNNNNTEST.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\dlg.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\back2.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\change.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\back2_C.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\change_C.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\dlg2.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\serodlg.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\e_DeleteBtnC.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\e_DeleteBtnF.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\e_DeleteBtnN.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\e_DeleteBtnU.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\e_EnDBtnC.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\e_EnDBtnF.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\e_EnDBtnN.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\e_EnDBtnU.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\e_LoadBtnC.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\e_LoadBtnF.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\e_LoadBtnN.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\e_LoadBtnU.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\icom.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\ClearC.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\ClearN.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\stopC.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\stopN.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\s_SearchBtnC.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\s_SearchBtnN.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\bookC.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\bookN.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\vol_off2.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\vol_on2.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\vol_off2u.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\changePasswordC.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\changePasswordN.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\OKbutton.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\OKbuttonC.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\smallDlg.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Sherlock.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\idr_main.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifyPassword.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatePassword.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="fileTreat.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CnewpasswardDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FileCompare.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FileCompareDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PasswordMain.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypt.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DIALOG1.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FWAES.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FWCrypt.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="JHCListCtrl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="password.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="passwordDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SAVE.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="JHBitmapButton.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="JHPicture.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapSlider.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="memdc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifyPassword.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CreatePassword.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="fileTreat.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CnewpasswardDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCompare.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FileCompareDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PasswordMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypt.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DIALOG1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FWAES.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FWCrypt.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JHCListCtrl.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="password.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="passwordDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SAVE.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JHBitmapButton.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="JHPicture.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapSlider.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

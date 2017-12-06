@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5C41DBC5-AA27-4822-AE18-17DB18C4A7C6}</ProjectGuid>
+    <RootNamespace>Main</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>subtaskhost</TargetName>
+    <EmbedManifest>false</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\AutoLockC.bmp" />
+    <None Include="res\AutoLockF.bmp" />
+    <None Include="res\AutoLockN.bmp" />
+    <None Include="res\AutoLockU.bmp" />
+    <None Include="res\back2.bmp" />
+    <None Include="res\back2_C.bmp" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bookC.bmp" />
+    <None Include="res\bookN.bmp" />
+    <None Include="res\change.bmp" />
+    <None Include="res\changePasswordC.bmp" />
+    <None Include="res\changePasswordN.bmp" />
+    <None Include="res\change_C.bmp" />
+    <None Include="res\ClearC.bmp" />
+    <None Include="res\ClearN.bmp" />
+    <None Include="res\dlg.bmp" />
+    <None Include="res\dlg2.bmp" />
+    <None Include="res\EncryptC.bmp" />
+    <None Include="res\EncryptF.bmp" />
+    <None Include="res\EncryptN.bmp" />
+    <None Include="res\EncryptNNNNNNTEST.bmp" />
+    <None Include="res\EncryptU.bmp" />
+    <None Include="res\e_DeleteBtnC.bmp" />
+    <None Include="res\e_DeleteBtnF.bmp" />
+    <None Include="res\e_DeleteBtnN.bmp" />
+    <None Include="res\e_DeleteBtnU.bmp" />
+    <None Include="res\e_EnDBtnC.bmp" />
+    <None Include="res\e_EnDBtnF.bmp" />
+    <None Include="res\e_EnDBtnN.bmp" />
+    <None Include="res\e_EnDBtnU.bmp" />
+    <None Include="res\e_LoadBtnC.bmp" />
+    <None Include="res\e_LoadBtnF.bmp" />
+    <None Include="res\e_LoadBtnN.bmp" />
+    <None Include="res\e_LoadBtnU.bmp" />
+    <None Include="res\icom.ico" />
+    <None Include="res\idr_main.ico" />
+    <None Include="res\Main.ico" />
+    <None Include="res\Main.rc2" />
+    <None Include="res\mainBG.bmp" />
+    <None Include="res\OKbutton.bmp" />
+    <None Include="res\OKbuttonC.bmp" />
+    <None Include="res\SearchBtnC.bmp" />
+    <None Include="res\SearchBtnF.bmp" />
+    <None Include="res\SearchBtnN.bmp" />
+    <None Include="res\SearchBtnU.bmp" />
+    <None Include="res\serodlg.bmp" />
+    <None Include="res\Sherlock.bmp" />
+    <None Include="res\smallDlg.bmp" />
+    <None Include="res\stopC.bmp" />
+    <None Include="res\stopN.bmp" />
+    <None Include="res\s_SearchBtnC.bmp" />
+    <None Include="res\s_SearchBtnN.bmp" />
+    <None Include="res\vol_off2.bmp" />
+    <None Include="res\vol_off2u.bmp" />
+    <None Include="res\vol_on2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BitmapSlider.h" />
+    <ClInclude Include="CnewpasswardDlg.h" />
+    <ClInclude Include="CreatePassword.h" />
+    <ClInclude Include="Crypt.h" />
+    <ClInclude Include="DIALOG1.h" />
+    <ClInclude Include="FileCompare.h" />
+    <ClInclude Include="FileCompareDlg.h" />
+    <ClInclude Include="fileTreat.h" />
+    <ClInclude Include="FWAES.h" />
+    <ClInclude Include="FWCrypt.h" />
+    <ClInclude Include="JHBitmapButton.h" />
+    <ClInclude Include="JHCListCtrl.h" />
+    <ClInclude Include="JHPicture.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="MainDlg.h" />
+    <ClInclude Include="memdc.h" />
+    <ClInclude Include="ModifyPassword.h" />
+    <ClInclude Include="password.h" />
+    <ClInclude Include="passwordDlg.h" />
+    <ClInclude Include="PasswordMain.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SAVE.h" />
+    <ClInclude Include="SearchDlg.h" />
+    <ClInclude Include="Sort.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BitmapSlider.cpp" />
+    <ClCompile Include="CnewpasswardDlg.cpp" />
+    <ClCompile Include="CreatePassword.cpp" />
+    <ClCompile Include="Crypt.cpp" />
+    <ClCompile Include="DIALOG1.cpp" />
+    <ClCompile Include="FileCompare.cpp" />
+    <ClCompile Include="FileCompareDlg.cpp" />
+    <ClCompile Include="fileTreat.cpp" />
+    <ClCompile Include="FWAES.cpp" />
+    <ClCompile Include="FWCrypt.cpp" />
+    <ClCompile Include="JHBitmapButton.cpp" />
+    <ClCompile Include="JHCListCtrl.cpp" />
+    <ClCompile Include="JHPicture.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainDlg.cpp" />
+    <ClCompile Include="ModifyPassword.cpp" />
+    <ClCompile Include="password.cpp" />
+    <ClCompile Include="passwordDlg.cpp" />
+    <ClCompile Include="PasswordMain.cpp" />
+    <ClCompile Include="SAVE.cpp" />
+    <ClCompile Include="SearchDlg.cpp" />
+    <ClCompile Include="Sort.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Main.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Main.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

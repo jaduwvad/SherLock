@@ -1,0 +1,29 @@
+// FWCrypt.cpp: implementation of the CFWCrypt class.
+//
+//////////////////////////////////////////////////////////////////////
+#pragma once
+#include "stdafx.h"
+#include "Crypt.h"
+#include "FWCrypt.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CFWCrypt::CFWCrypt()
+{
+
+}
+
+CFWCrypt::~CFWCrypt()
+{
+
+}

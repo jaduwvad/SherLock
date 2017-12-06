@@ -1,0 +1,118 @@
+﻿  stdafx.cpp
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afx.h(33): note: see declaration of 'MBCS_Support_Deprecated_In_MFC'
+  BitmapSlider.cpp
+  CnewpasswardDlg.cpp
+  CreatePassword.cpp
+  Crypt.cpp
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(64): error C2065: 'PCCERT_CONTEXT': undeclared identifier
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(64): error C2146: syntax error: missing ')' before identifier 'pCertContext'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(116): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(116): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(116): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(119): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(119): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(119): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(122): error C3646: 'pfnFilter': unknown override specifier
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(122): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(125): error C3646: 'hprov': unknown override specifier
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(125): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(136): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(136): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(136): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(139): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(139): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(139): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(142): error C3646: 'pfnFilter': unknown override specifier
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(142): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(145): error C3646: 'hprov': unknown override specifier
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(145): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(199): error C3646: 'pCertContext': unknown override specifier
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(199): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(203): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(203): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(203): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(205): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(205): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(205): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(207): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(207): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(207): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(208): error C3646: 'hprov': unknown override specifier
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(208): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(224): error C3646: 'pCertContext': unknown override specifier
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(224): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(228): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(228): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(228): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(230): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(230): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(230): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(232): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(232): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(232): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(233): error C3646: 'hprov': unknown override specifier
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(233): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(316): error C2065: 'PCCERT_CONTEXT': undeclared identifier
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(316): error C2146: syntax error: missing ')' before identifier 'pccert'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(324): error C2065: 'PCCERT_CONTEXT': undeclared identifier
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(324): error C2146: syntax error: missing ')' before identifier 'pccert'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(352): error C2065: 'PCCERT_CONTEXT': undeclared identifier
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(352): error C2146: syntax error: missing ')' before identifier 'pCertContext'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(407): error C3646: 'pccert': unknown override specifier
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(407): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(412): error C3646: 'hprov': unknown override specifier
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(412): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(414): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(414): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(414): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(416): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(416): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(416): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(418): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(418): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(418): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(420): error C3646: 'pfnTrustHelper': unknown override specifier
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(420): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(422): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(422): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(422): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(424): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(424): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(424): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(442): error C3646: 'pccert': unknown override specifier
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(442): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\CryptDlg.h(455): error C2061: syntax error: identifier 'HCERTSTORE'
+Crypt.cpp(55): warning C4996: 'CWinApp::Enable3dControlsStatic': CWinApp::Enable3dControlsStatic is no longer needed. You should remove this call.
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afxwin2.inl(1077): note: see declaration of 'CWinApp::Enable3dControlsStatic'
+  DIALOG1.cpp
+  FileCompare.cpp
+  FileCompareDlg.cpp
+FileCompareDlg.cpp(163): warning C4244: '=': conversion from 'ULONGLONG' to 'double', possible loss of data
+  fileTreat.cpp
+fileTreat.cpp(135): warning C4244: 'initializing': conversion from 'ULONGLONG' to 'unsigned int', possible loss of data
+fileTreat.cpp(136): warning C4244: 'argument': conversion from 'ULONGLONG' to 'UINT', possible loss of data
+  FWAES.cpp
+  FWCrypt.cpp
+  JHBitmapButton.cpp
+  JHCListCtrl.cpp
+  JHPicture.cpp
+  Main.cpp
+  MainDlg.cpp
+  ModifyPassword.cpp
+  password.cpp
+  passwordDlg.cpp
+passwordDlg.cpp(231): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+passwordDlg.cpp(330): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  PasswordMain.cpp
+  SAVE.cpp
+  Compiling...
+  SearchDlg.cpp
+SearchDlg.cpp(131): warning C4244: 'initializing': conversion from 'ULONGLONG' to 'double', possible loss of data
+SearchDlg.cpp(188): warning C4244: 'initializing': conversion from 'ULONGLONG' to 'double', possible loss of data
+SearchDlg.cpp(204): error C2668: 'abs': ambiguous call to overloaded function
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(359): note: could be '__int64 abs(const __int64) throw()'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(354): note: or       'long abs(const long) throw()'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(284): note: or       'int abs(int)'
+  SearchDlg.cpp(204): note: while trying to match the argument list '(double)'
+  Sort.cpp
